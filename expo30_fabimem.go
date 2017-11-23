@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-const LIM = 1000
+const LIM = 10000
 
 var fibs [LIM]uint64
 
