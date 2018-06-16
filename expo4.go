@@ -12,5 +12,5 @@ func main() {
 	fmt.Println("---->hello golang !!-->", a)
 	fmt.Println("---->", b)
 	fmt.Println("---->", c)
-	aaz.Printf("---->%d\n",c)
+	aaz.Printf("---->%d\n", c)
 }

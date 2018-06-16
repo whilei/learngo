@@ -23,12 +23,12 @@ func main() {
 
 	// delete an item:
 	delete(map1, "Washington")
-	delete(map1,"guangzhou")
+	delete(map1, "guangzhou")
 	value, isPresent = map1["Washington"]
 	if isPresent {
 		fmt.Printf("The value of \"Washington\" in map1 is: %d\n", value)
 	} else {
 		fmt.Println("map1 does not contain Washington")
-	
+
 	}
 }
